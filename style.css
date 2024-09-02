@@ -1,0 +1,55 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #090606; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+#STOPWATCH {
+    font-size: 100px;
+    box-shadow: 3px 0px 30px rgba(184, 89, 95, 0.788); 
+    padding: 10px;
+    background-color: #aec1c1; 
+    color: #1e193d; 
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#buttons {
+    display: flex;
+}
+
+button {
+    padding: 20px;
+    background-color: #262929; 
+    border: none;
+    border-radius: 20px;
+    color: #eae8e8; 
+    width: 100px;
+    margin: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    font-size: larger;
+    transition: all 0.5s;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #4b4bc6; 
+}
+
+button:active {
+    box-shadow: none;
+    background-color: #4d2900; 
+    transition: all 0.1s;
+   
+    color: #09128a;
+}
